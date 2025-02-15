@@ -23,7 +23,7 @@ interface InstanceGroup extends InstanceBase {
   require18yo: boolean
 }
 
-type Instance = InstancePublic | InstanceUser | InstanceGroup
+export type Instance = InstancePublic | InstanceUser | InstanceGroup
 
 /**
  * Parses the location 
