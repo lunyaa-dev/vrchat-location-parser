@@ -1,0 +1,32 @@
+{
+  "name": "vrchat-location-parser",
+  "version": "0.1.0",
+  "description": "Parser for VRchat Locations",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --dts"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "vrchat",
+    "vrchat location",
+    "vrchat instance"
+  ],
+  "author": "lunyaa.dev",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lunyaa-dev/vrchat-location-parser.git"
+  }
+}
