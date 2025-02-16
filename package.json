@@ -1,6 +1,6 @@
 {
   "name": "vrchat-location-parser",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Parser for VRchat Locations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
